@@ -1,0 +1,31 @@
+.seccion8{
+    height: calc(100vh - 90px);
+    display: grid;
+    grid-template-rows: 85% 15%;
+    .principal{
+        display: grid;
+        grid-template-columns: 58vw 38vw;
+        .texto{
+            font-size: 18px;
+            margin: 30px 10px 0 70px;
+            font-family: $OpenSans;
+            span{
+                font-family: $WorkSans;
+            }
+        }
+        .imagen{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            img{
+                width: 40vw;
+            }
+        }
+    }
+    .textoFondo{
+        text-align: center;
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
