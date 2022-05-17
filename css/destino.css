@@ -954,15 +954,16 @@ a.btnInfo {
   grid-template-columns: 350px 1fr; }
   .seccion4 div {
     margin-top: 80px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    padding-bottom: 20px; }
     .seccion4 div h3 {
       font-weight: 700;
       font-family: "Work Sans", sans-serif; }
     .seccion4 div p {
       font-family: "Open Sans", sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 30px;
-      padding: 5px 10px 20px 0; }
+      padding: 0 10px 0 0; }
   .seccion4 .imgCecilia {
     margin-top: 100px;
     margin-left: 50px;
@@ -1020,7 +1021,7 @@ a.btnInfo {
     .seccion5 .textoEDA p {
       font-family: "Open Sans", sans-serif;
       padding-right: 50px;
-      line-height: 45px;
+      line-height: 38px;
       font-size: 18px;
       color: #424242; }
 
@@ -1157,34 +1158,40 @@ a.btnInfo {
           font-size: 20px; }
 
 .seccion7 {
-  height: calc(100vh - 70px);
+  height: 100vh;
   display: grid;
   grid-template-rows: 20vh 60vh;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #ffbd4a;
+  position: relative;
+  margin-top: 20px; }
   .seccion7 h2 {
     font-family: "Work Sans", sans-serif;
-    margin-top: 10vh; }
+    margin-top: 15vh; }
   .seccion7 .texto {
-    background-color: #ffbd4a;
+    position: absolute;
     height: 45vh;
     width: 80vw;
-    margin-top: 30px;
+    margin-top: 35vh;
+    margin-left: 10vw;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .seccion7 .texto p {
       font-family: "Open Sans", sans-serif;
       line-height: 70px;
       text-align: center;
       font-size: 20px;
-      padding: 0 15px 40px 15px; }
+      padding: 0 15px 0 15px; }
 
 .seccion8 {
-  height: calc(100vh - 90px);
+  height: 100vh;
   display: grid;
   grid-template-rows: 85% 15%; }
   .seccion8 .principal {
     display: grid;
-    grid-template-columns: 58vw 38vw; }
+    grid-template-columns: 50vw 45vw;
+    margin-top: 7vh; }
     .seccion8 .principal .texto {
       font-size: 18px;
       margin: 30px 10px 0 70px;
@@ -1197,14 +1204,14 @@ a.btnInfo {
       align-content: center;
       align-items: center; }
       .seccion8 .principal .imagen img {
-        width: 40vw; }
+        width: 100%; }
   .seccion8 .textoFondo {
     text-align: center;
     width: 70vw;
     margin: 0 auto; }
 
 .seccion9 {
-  height: calc(100vh - 90px);
+  height: 100vh;
   display: grid;
   grid-template-columns: 50vw 50vw; }
   .seccion9 .imagen {
@@ -1222,34 +1229,36 @@ a.btnInfo {
       font-family: "Open Sans", sans-serif; }
 
 .seccion10 {
-  height: calc(100vh - 90px);
+  height: 100vh;
   display: grid;
-  grid-template-rows: 50vh 20vh 20vh;
+  grid-template-rows: 70vh 15vh 15vh;
   justify-content: center; }
   .seccion10 .imagen {
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center; }
+    align-content: end;
+    align-items: flex-end;
+    margin-bottom: 1.5rem; }
     .seccion10 .imagen img {
-      height: 45vh;
+      height: 50vh;
       width: auto; }
   .seccion10 .texto {
     display: block;
-    justify-content: center;
-    align-items: center; }
+    justify-content: center; }
     .seccion10 .texto p {
       text-align: center;
-      font-size: 18px;
+      margin-bottom: unset;
+      font-size: 1.125rem;
       font-family: "Open Sans", sans-serif; }
   .seccion10 .redes {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: flex-start;
+    align-content: flex-start; }
     .seccion10 .redes a {
-      height: 50px;
-      width: 50px;
-      margin: 15px; }
+      height: 30px;
+      width: 30px;
+      margin: 0 15px; }
       .seccion10 .redes a img {
-        height: 50px;
-        width: 50px; }
+        height: 40px;
+        width: 40px; }
