@@ -5,7 +5,7 @@ header {
 .logoNavbar {
     width: 7rem;
     margin-bottom: 0rem;
-    margin-left: 3rem;
+    margin-left: 3.3rem;
 }
 
 #navbarNavAltMarkup {
@@ -59,6 +59,7 @@ header {
 @media (min-width:768px) and (max-width: 991px){
     .logoNavbar {
         width: 6.5rem;
+        margin-left: 2.5rem;
     }
 }
 @media (min-width:577px) and (max-width: 767px){
