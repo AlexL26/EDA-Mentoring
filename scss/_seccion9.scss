@@ -21,3 +21,32 @@
         }
     }
 }
+
+@media (max-width:577px){
+    .seccion9{
+        min-height: 100vh;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        .imagen{
+            display: unset;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 96vw;
+                height: auto;
+            }
+        }
+        .texto{
+            width: unset;
+            margin: 5vh 7vw 0 7vw;
+            h3{
+                font-family: $WorkSans;
+            }
+            p{
+                font-family: $OpenSans;
+            }
+        }
+    }
+    
+}

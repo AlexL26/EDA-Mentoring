@@ -1,30 +1,21 @@
 .seccion5 {
     height: 100vh;
-    display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
-    grid-template-rows: 25vh 75vh;
-
+    display: flex;
+    position: relative;
     .tituloEDA {
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        display: flex;
-        position: relative;
-
+        width: 100vw;
+        position: absolute;
+        top: 15vh;
+        left: 8vw;
         h2 {
-            position: absolute;
-            top: 50%;
-            left: 8%;
+            top: 10vh;
             font-weight: 800;
             font-family: $WorkSans;
             font-size: 32px;
         }
 
         p {
-            position: absolute;
-            top: 71%;
-            left: 8%;
+            top: 15vh;
             font-weight: 700;
             font-family: $WorkSans;
             font-size: 20px;
@@ -45,32 +36,166 @@
     }
 
     .metodoEDA {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        position: absolute;
+        top: 35vh;
+        left: 5vw;
+        width: 40vw;
         img {
-            height: 350px;
-            width: auto;
+            height: auto;
+            width: 100%;
         }
     }
 
     .textoEDA {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        margin-top: 10%;
+        position: absolute;
+        top: 30vh;
+        right: 0;
+        width: 50vw;
         p{
             font-family: $OpenSans;
-            padding-right: 50px;
-            line-height: 38px;
+            line-height: 3rem;
             font-size: 18px;
             color: rgb(66, 66, 66);
+            padding-right: 5vw;
+            padding-left: 2vw;
         }
     }
+}
+
+@media (max-width:577px){
+    .seccion5 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        height: fit-content;
+
+        .tituloEDA {
+            padding-top: 12vh;
+            padding-bottom: 1rem;
+            position: unset;
+            
+            h2{
+                margin-bottom: unset;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    
+        .metodoEDA {  
+            position: unset;
+            img {
+                height: auto;
+                width: 70vw;
+            }
+        }
+    
+        .textoEDA {
+            position: unset;
+            margin-top: 3vh;
+            width: 90vw;
+            p{
+                font-family: $OpenSans;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                line-height: 2rem;
+                font-size: 0.95rem;
+                color: rgb(66, 66, 66);
+            }
+        }
+    }
+}
+
+@media (min-width:578px) and (max-width: 767px){
+    .seccion5 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        height: fit-content;
+
+        .tituloEDA {
+            padding-top: 12vh;
+            padding-bottom: 1rem;
+            position: unset;
+            
+            h2{
+                margin-bottom: unset;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    
+        .metodoEDA {  
+            position: unset;
+            img {
+                height: auto;
+                width: 60vw;
+            }
+        }
+    
+        .textoEDA {
+            position: unset;
+            margin-top: 3vh;
+            width: 90vw;
+            p{
+                font-family: $OpenSans;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                line-height: 2rem;
+                font-size: 0.95rem;
+                color: rgb(66, 66, 66);
+            }
+        }
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .seccion5 {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        align-items: center;
+        height: fit-content;
+
+        .tituloEDA {
+            padding-top: 12vh;
+            padding-bottom: 1rem;
+            position: unset;
+            
+            h2{
+                margin-bottom: unset;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    
+        .metodoEDA {  
+            position: unset;
+            img {
+                height: auto;
+                width: 50vw;
+            }
+        }
+    
+        .textoEDA {
+            position: unset;
+            margin-top: 3vh;
+            width: 90vw;
+            p{
+                font-family: $OpenSans;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                line-height: 2rem;
+                font-size: 0.95rem;
+                color: rgb(66, 66, 66);
+            }
+        }
+    }
+
+
 }

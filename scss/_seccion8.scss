@@ -30,3 +30,30 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width:577px){
+    .seccion8{
+        min-height: 100vh;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        .principal{
+            display: unset;
+            margin-top: 5vh;
+            grid-template-columns: none;
+            .texto{
+                font-size: 1rem;
+                margin: 5vh 7vw 0 7vw;
+            }
+            .imagen{
+                img{
+                    width: 96%;
+                }
+            }
+        }
+        .textoFondo{
+            margin: 3vh auto;
+        }
+    }
+    
+}
