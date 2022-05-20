@@ -1,21 +1,20 @@
 .seccion5 {
-    height: 100vh;
-    display: flex;
-    position: relative;
+    min-height: 100vh;
+    height: fit-content;
+    padding-top: 15vh;
+
     .tituloEDA {
-        width: 100vw;
-        position: absolute;
-        top: 15vh;
-        left: 8vw;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10vw;
+
         h2 {
-            top: 10vh;
             font-weight: 800;
             font-family: $WorkSans;
             font-size: 32px;
         }
 
         p {
-            top: 15vh;
             font-weight: 700;
             font-family: $WorkSans;
             font-size: 20px;
@@ -35,167 +34,171 @@
         }
     }
 
-    .metodoEDA {
-        position: absolute;
-        top: 35vh;
-        left: 5vw;
-        width: 40vw;
-        img {
-            height: auto;
-            width: 100%;
-        }
-    }
-
-    .textoEDA {
-        position: absolute;
-        top: 30vh;
-        right: 0;
-        width: 50vw;
-        p{
-            font-family: $OpenSans;
-            line-height: 3rem;
-            font-size: 18px;
-            color: rgb(66, 66, 66);
-            padding-right: 5vw;
-            padding-left: 2vw;
-        }
-    }
-}
-
-@media (max-width:577px){
-    .seccion5 {
+    .contenido {
         display: flex;
-        flex-direction: column;
-        position: unset;
         align-items: center;
-        height: fit-content;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 5vh;
 
-        .tituloEDA {
-            padding-top: 12vh;
-            padding-bottom: 1rem;
-            position: unset;
-            
-            h2{
-                margin-bottom: unset;
-            }
-            p {
-                font-size: 1rem;
-            }
-        }
-    
-        .metodoEDA {  
-            position: unset;
+        .metodoEDA {
+            width: 40vw;
+
             img {
                 height: auto;
-                width: 70vw;
+                width: 98%;
+                margin-left: 3vw;
             }
         }
-    
+
         .textoEDA {
-            position: unset;
-            margin-top: 3vh;
-            width: 90vw;
-            p{
+            top: 30vh;
+            right: 0;
+            width: 50vw;
+
+            p {
                 font-family: $OpenSans;
-                padding-right: 1rem;
-                padding-left: 1rem;
-                line-height: 2rem;
-                font-size: 0.95rem;
+                line-height: 3rem;
+                font-size: 18px;
                 color: rgb(66, 66, 66);
+                padding-right: 5vw;
+                padding-left: 2vw;
             }
         }
     }
 }
 
-@media (min-width:578px) and (max-width: 767px){
+@media (min-width:768px) and (max-width: 991px) {
     .seccion5 {
         display: flex;
         flex-direction: column;
-        position: unset;
-        align-items: center;
-        height: fit-content;
 
         .tituloEDA {
-            padding-top: 12vh;
-            padding-bottom: 1rem;
-            position: unset;
-            
-            h2{
-                margin-bottom: unset;
-            }
+
             p {
                 font-size: 1rem;
             }
         }
-    
-        .metodoEDA {  
-            position: unset;
-            img {
-                height: auto;
-                width: 60vw;
-            }
-        }
-    
-        .textoEDA {
-            position: unset;
-            margin-top: 3vh;
-            width: 90vw;
-            p{
-                font-family: $OpenSans;
-                padding-right: 1rem;
-                padding-left: 1rem;
-                line-height: 2rem;
-                font-size: 0.95rem;
-                color: rgb(66, 66, 66);
-            }
-        }
-    }
 
-}
+        .contenido {
+            margin-top: 5vh;
 
-@media (min-width:768px) and (max-width: 991px){
-    .seccion5 {
-        display: flex;
-        flex-direction: column;
-        position: unset;
-        align-items: center;
-        height: fit-content;
+            .metodoEDA {
+                img {
+                    height: auto;
+                    width: 98%;
+                }
+            }
 
-        .tituloEDA {
-            padding-top: 12vh;
-            padding-bottom: 1rem;
-            position: unset;
-            
-            h2{
-                margin-bottom: unset;
-            }
-            p {
-                font-size: 1rem;
-            }
-        }
-    
-        .metodoEDA {  
-            position: unset;
-            img {
-                height: auto;
+            .textoEDA {
+                margin-top: 3vh;
                 width: 50vw;
-            }
-        }
-    
-        .textoEDA {
-            position: unset;
-            margin-top: 3vh;
-            width: 90vw;
-            p{
-                font-family: $OpenSans;
-                padding-right: 1rem;
-                padding-left: 1rem;
-                line-height: 2rem;
-                font-size: 0.95rem;
-                color: rgb(66, 66, 66);
+
+                p {
+                    font-family: $OpenSans;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    line-height: 2rem;
+                    font-size: 18px;
+                    color: rgb(66, 66, 66);
+                }
             }
         }
     }
+}
 
+@media (min-width:578px) and (max-width: 767px) {
+    .seccion5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
 
+        .tituloEDA {
+            padding-left: unset;
+            h2 {
+                margin-bottom: unset;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .contenido {
+            flex-direction: column;
+            .metodoEDA {
+                position: unset;
+                width: 60vw;
+                img {
+                    height: auto;
+                    width: 98%;
+                    margin-left: unset;
+                }
+            }
+
+            .textoEDA {
+                position: unset;
+                margin-top: 3vh;
+                width: 90vw;
+
+                p {
+                    font-family: $OpenSans;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    line-height: 2rem;
+                    font-size: 0.95rem;
+                    color: rgb(66, 66, 66);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:577px) {
+    .seccion5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+
+        .tituloEDA {
+            padding-left: unset;
+            h2 {
+                margin-bottom: unset;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .contenido {
+            flex-direction: column;
+            .metodoEDA {
+                position: unset;
+                width: 60vw;
+                img {
+                    height: auto;
+                    width: 98%;
+                    margin-left: unset;
+                }
+            }
+
+            .textoEDA {
+                position: unset;
+                margin-top: 3vh;
+                width: 90vw;
+
+                p {
+                    font-family: $OpenSans;
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                    line-height: 2rem;
+                    font-size: 0.95rem;
+                    color: rgb(66, 66, 66);
+                }
+            }
+        }
+    }
 }

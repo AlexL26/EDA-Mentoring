@@ -45,7 +45,7 @@
     }
 }
 
-@media (max-width:577px){
+@media (min-width:768px) and (max-width: 991px){
     .seccion4 {
         display: flex;
         flex-direction: column;
@@ -74,11 +74,12 @@
     
         .imgCecilia {
             margin: auto;
-            margin-top: 1rem;
+            margin-top: 2rem;
             border-radius: 50%;
-            height: 200px;
+            height: 45vh;
         }
     }
+
 }
 
 @media (min-width:578px) and (max-width: 767px){
@@ -117,7 +118,7 @@
     }
 }
 
-@media (min-width:768px) and (max-width: 991px){
+@media (max-width:577px){
     .seccion4 {
         display: flex;
         flex-direction: column;
@@ -146,10 +147,9 @@
     
         .imgCecilia {
             margin: auto;
-            margin-top: 2rem;
+            margin-top: 1rem;
             border-radius: 50%;
-            height: 45vh;
+            height: 200px;
         }
     }
-
 }

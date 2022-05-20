@@ -71,7 +71,22 @@
                 font-family: $OpenSans;
             }
         }
-           
-    }
+        .redes{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: flex-start;
+            margin-top: 5vh;
+            a{
+              height: 30px;
+              width: 30px;
+              margin: 0 15px;
     
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }    
+    }
 }
