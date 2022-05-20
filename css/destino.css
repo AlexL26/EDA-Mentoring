@@ -60,22 +60,14 @@ header {
   font-size: 0.95rem;
   color: black;
   padding-bottom: 0;
-  margin-bottom: 0; }
-
-.normalText {
-  font-size: 0.8rem;
-  padding-bottom: 0;
   margin-bottom: 0;
-  color: black;
-  display: inline-block; }
+  font-variant: small-caps; }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .navbar-nav {
     margin-right: 1rem; }
   .bigText {
-    font-size: 0.9rem; }
-  .normalText {
-    font-size: 0.75rem; } }
+    font-size: 0.9rem; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .logoNavbar {
@@ -95,8 +87,6 @@ header {
     margin-bottom: 0rem;
     margin-left: 1rem; } }
 
-/* FUENTE INDICE (WORK SANS) - VERSALITAS
-FUENTES TEXTOS INTERNOS (OPEN SANS) */
 * {
   margin: 0;
   padding: 0; }

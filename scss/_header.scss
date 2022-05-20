@@ -39,23 +39,15 @@ header {
     color: black;
     padding-bottom: 0;
     margin-bottom: 0;
+    font-variant: small-caps;
 }
-.normalText {
-    font-size: 0.8rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: black;
-    display: inline-block;
-}
+
 @media (min-width:992px) and (max-width: 1200px){
     .navbar-nav {
         margin-right: 1rem;
     }
     .bigText {
         font-size: 0.9rem;
-    }
-    .normalText {
-        font-size: 0.75rem;
     }
     
 }
@@ -83,11 +75,3 @@ header {
 }
 
 
-
-
-
-
-
-
-/* FUENTE INDICE (WORK SANS) - VERSALITAS
-FUENTES TEXTOS INTERNOS (OPEN SANS) */
