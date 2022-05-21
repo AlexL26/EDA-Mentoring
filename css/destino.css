@@ -1353,29 +1353,29 @@ a.btnInfo {
           font-weight: 600;
           position: unset;
           left: 20%;
-          font-size: 40px;
+          font-size: 30px;
           background-color: #ff5c5c;
-          height: 90px;
-          width: 90px;
+          height: 60px;
+          width: 60px;
           border-radius: 50%;
           display: flex;
           justify-content: center;
           align-content: center;
           align-items: center;
           margin: 30px;
-          margin-left: 25%; }
+          margin-left: unset; }
         .seccion6 .laE .letra div {
-          text-align: center;
+          text-align: left;
           position: unset;
           margin-left: 0; }
           .seccion6 .laE .letra div h3 {
             color: #ff5c5c;
-            font-size: 24px;
+            font-size: 20px;
             font-family: "Work Sans", sans-serif;
             font-weight: 400; }
           .seccion6 .laE .letra div span {
             font-family: "Work Sans", sans-serif;
-            font-size: 20px; }
+            font-size: 18px; }
     .seccion6 .laD {
       display: flex;
       flex-direction: column;
@@ -1389,29 +1389,29 @@ a.btnInfo {
           top: 5vh;
           font-family: "Work Sans", sans-serif;
           font-weight: 600;
-          font-size: 40px;
+          font-size: 30px;
           background-color: #ffbd4a;
-          height: 90px;
-          width: 90px;
+          height: 60px;
+          width: 60px;
           border-radius: 50%;
           display: flex;
           justify-content: center;
           align-content: center;
           align-items: center;
           margin: 30px;
-          margin-left: 25%; }
+          margin-left: unset; }
         .seccion6 .laD .letra div {
-          text-align: center;
+          text-align: left;
           position: unset;
           margin-left: 0; }
           .seccion6 .laD .letra div h3 {
             font-family: "Work Sans", sans-serif;
             font-weight: 400;
             color: #ffbd4a;
-            font-size: 24px; }
+            font-size: 20px; }
           .seccion6 .laD .letra div span {
             font-family: "Work Sans", sans-serif;
-            font-size: 20px; }
+            font-size: 18px; }
     .seccion6 .laA {
       background-color: #d9d9d9;
       display: flex;
@@ -1424,29 +1424,29 @@ a.btnInfo {
           left: 20%;
           font-family: "Work Sans", sans-serif;
           font-weight: 600;
-          font-size: 40px;
+          font-size: 30px;
           background-color: #a6a6a6;
-          height: 90px;
-          width: 90px;
+          height: 60px;
+          width: 60px;
           border-radius: 50%;
           display: flex;
           justify-content: center;
           align-content: center;
           align-items: center;
           margin: 30px;
-          margin-left: 25%; }
+          margin-left: unset; }
         .seccion6 .laA .letra div {
-          text-align: center;
+          text-align: left;
           position: unset;
           margin-left: 0; }
           .seccion6 .laA .letra div h3 {
             color: #a8a8a8;
-            font-size: 24px;
+            font-size: 20px;
             font-family: "Work Sans", sans-serif;
             font-weight: 400; }
           .seccion6 .laA .letra div span {
             font-family: "Work Sans", sans-serif;
-            font-size: 20px; } }
+            font-size: 18px; } }
 
 .seccion7 {
   height: 100vh;
@@ -1535,13 +1535,12 @@ a.btnInfo {
     height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
     position: unset; }
     .seccion7 h2 {
       margin-top: 3vh;
-      padding: 0 4vw 0 4vw;
+      padding: 10vh 4vw 10vh 4vw;
       text-align: center; }
     .seccion7 .texto {
       position: unset;
@@ -1557,7 +1556,7 @@ a.btnInfo {
         line-height: 2.5rem;
         text-align: center;
         font-size: 1.125rem;
-        padding: 0 1rem 0 1rem; } }
+        padding: 0 1rem 10vh 1rem; } }
 
 .seccion8 {
   min-height: 100vh;
@@ -1769,7 +1768,7 @@ a.btnInfo {
     .seccion10 .redes a {
       height: 30px;
       width: 30px;
-      margin: 0 15px; }
+      margin: 0 3vw; }
       .seccion10 .redes a img {
         height: 40px;
         width: 40px; }
@@ -1783,15 +1782,16 @@ a.btnInfo {
     .seccion10 .imagen {
       display: flex;
       justify-content: center;
-      align-content: end;
-      align-items: flex-end;
+      align-content: unset;
+      align-items: unset;
       margin-bottom: 1.5rem; }
       .seccion10 .imagen img {
-        height: 50vh;
-        width: auto; }
+        height: auto;
+        width: 90vw; }
     .seccion10 .texto {
-      display: block;
-      justify-content: center; }
+      display: flex;
+      flex-direction: column;
+      width: 96vw; }
       .seccion10 .texto p {
         text-align: center;
         margin-bottom: unset;
